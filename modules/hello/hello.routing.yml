@@ -1,0 +1,7 @@
+hello:
+  path: '/helloworld'
+  defaults:
+    _title: 'Custome Module Demo in Drupal 8'
+    _controller: 'Drupal\hello\HelloController\HelloController::content'
+  requirements:
+    _permission: 'access content'
